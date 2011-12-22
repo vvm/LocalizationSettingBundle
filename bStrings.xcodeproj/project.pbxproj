@@ -29,8 +29,9 @@
 		D4C1C4BC14A2BBA200566208 /* bStrings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bStrings; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C1C4C014A2BBA200566208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4C1C4C314A2BBA200566208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4C1C4C614A2BBA200566208 /* bStrings-Prefix.pch */ = {isa = PBXFileReference; path = "bStrings-Prefix.pch"; sourceTree = "<group>"; };
+		D4C1C4C614A2BBA200566208 /* bStrings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bStrings-Prefix.pch"; sourceTree = "<group>"; };
 		D4C1C4C714A2BBA200566208 /* bStrings.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bStrings.1; sourceTree = "<group>"; };
+		D4C1C4D114A2FE7900566208 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				D4C1C4C314A2BBA200566208 /* main.m */,
+				D4C1C4D114A2FE7900566208 /* Readme */,
 				D4C1C4C714A2BBA200566208 /* bStrings.1 */,
 				D4C1C4C514A2BBA200566208 /* Supporting Files */,
 			);
